@@ -6,7 +6,7 @@ This code creates a database with a list of publications data from Google
 Scholar.
 The data acquired from GS is Title, Citations, Links and Rank.
 It is useful for finding relevant papers by sorting by the number of citations
-This example will look for the top 100 papers related to the keyword, 
+This example will look for the top 1000 papers related to the keyword, 
 so that you can rank them by the number of citations
 
 As output this program will plot the number of citations in the Y axis and the 
@@ -28,8 +28,8 @@ import sys
 if sys.version[0]=="3": raw_input=input
 
 # Default Parameters
-KEYWORD = 'machine learning' # Default argument if command line is empty
-NRESULTS = 100 # Fetch 100 articles
+KEYWORD = 'skin cancer' # Default argument if command line is empty
+NRESULTS = 1000 # Fetch 1000 articles
 CSVPATH = '.' # Current folder
 SAVECSV = True
 SORTBY = 'Citations'
