@@ -29,7 +29,7 @@ if sys.version[0]=="3": raw_input=input
 
 # Default Parameters
 KEYWORD = 'skin cancer' # Default argument if command line is empty
-NRESULTS = 1000 # Fetch 1000 articles
+NRESULTS = 750 # Fetch 750 articles
 CSVPATH = '.' # Current folder
 SAVECSV = True
 SORTBY = 'Citations'
